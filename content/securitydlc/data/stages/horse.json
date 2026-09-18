@@ -8,6 +8,6 @@
 	"opponent": [-30, 100],
 	"secondopp": [-60, 210],
 	"flags":{
-		"weird": true
+		"sheriff": true
 	}
 }
