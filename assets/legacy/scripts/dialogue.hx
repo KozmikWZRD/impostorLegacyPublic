@@ -531,6 +531,7 @@ function dialogueUpdate(elapsed:Float)
 			if (dialogueList.length > 0) refreshDialogue(true);
 			else
 			{
+				PlayState.instance.callOnScripts('onDialogueComplete', []);
 				goodBialogue();
 			}
 		}
